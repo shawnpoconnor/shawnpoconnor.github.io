@@ -69,3 +69,18 @@ footer a {
   vertical-align: text;
   margin-left: 20%;
 }
+
+a {
+  font-family: sans-serif;
+}
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: blue;
+}
