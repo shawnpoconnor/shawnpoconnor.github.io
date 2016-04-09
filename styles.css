@@ -1,3 +1,54 @@
-body {
-  background: blue;
+div h1 {
+  color: teal;
+  font-family: helvetica;
+  margin-left: 50%
+}
+
+div p {
+  font-family: helvetica;
+}
+
+nav {
+  background-color: teal;
+  width: 20%;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  border: solid;
+  border-width: 20%px;
+  border-color: teal;
+  margin: 1%;
+}
+
+#navtitle {
+  display: inline-block;
+  margin-left: 30%
+}
+
+#profpic {
+  width: 100%
+}
+
+#main {
+  display: inline-block;
+  width: 60%;
+  padding: 5%
+}
+
+footer {
+  display: inline-text;
+  vertical-align: text-bottom;
+  background-color: gray;
+  width: 100%
+}
+
+footer p {
+  display: inline-block;
+  vertical-align: text;
+  margin-left: 20%;
+}
+footer a {
+  display: inline-block;
+  vertical-align: text;
+  margin-left: 20%;
 }
