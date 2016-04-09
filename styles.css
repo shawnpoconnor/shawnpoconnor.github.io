@@ -1,3 +1,71 @@
 body {
-  background: blue;
+  background-color: gray;
+  background-image: url("tesselate.png");
+}
+div h1 {
+  color: teal;
+  font-family: helvetica;
+  text-shadow: 0px 0 black, 0 3px black, 0 0px black;
+  margin-left: 45%
+}
+
+div p {
+  font-family: helvetica;
+}
+
+nav {
+  background-color: teal;
+  width: 20%;
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+  border: solid;
+  border-width: 12px;
+  border-color: teal;
+  border-radius: 25px;
+  margin: 1%;
+}
+
+#navtitle {
+  display: inline-block;
+  margin-left: 30%
+}
+
+#profpic {
+  width: 100%
+}
+
+#main {
+  display: inline-block;
+  width: 60%;
+  padding: 5%
+}
+
+.maintext {
+  font-family: helvetica;
+  background-color: teal;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 10px;
+}
+
+footer {
+  display: inline-text;
+  vertical-align: text-bottom;
+  background-color: teal;
+  border: solid;
+  border-color: black;
+  border-radius: 25px;
+  width: 100%
+}
+
+footer p {
+  display: inline-block;
+  vertical-align: text;
+  margin-left: 20%;
+}
+footer a {
+  display: inline-block;
+  vertical-align: text;
+  margin-left: 20%;
 }
