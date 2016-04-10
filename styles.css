@@ -38,8 +38,8 @@ nav {
 #main {
   display: inline-block;
   max-width: 60%;
-  min-width: 20%
-  padding: 5%
+  min-width: 20%;
+  padding: 5%;
 }
 
 .maintext {
@@ -51,7 +51,7 @@ nav {
 }
 
 footer {
-  display: inline-text;
+  display: block;
   vertical-align: text-bottom;
   background-color: teal;
   border: solid;
@@ -62,12 +62,12 @@ footer {
 
 footer p {
   display: inline-block;
-  vertical-align: text;
+  vertical-align: top;
   margin-left: 20%;
 }
 footer a {
   display: inline-block;
-  vertical-align: text;
+  vertical-align: top;
   margin-left: 20%;
 }
 
@@ -90,8 +90,10 @@ a:active {
   .maintext {
     font-size: small;
   }
+}
+
+  @media screen and (max-width: 600px) {
   nav {
     display: block;
-    vertical-align: none;
   }
 }
