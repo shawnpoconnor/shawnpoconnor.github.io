@@ -37,8 +37,9 @@ nav {
 
 #main {
   display: inline-block;
-  width: 60%;
-  padding: 5%
+  max-width: 60%;
+  min-width: 20%;
+  padding: 5%;
 }
 
 .maintext {
@@ -50,22 +51,49 @@ nav {
 }
 
 footer {
-  display: inline-text;
+  display: block;
   vertical-align: text-bottom;
   background-color: teal;
   border: solid;
   border-color: black;
   border-radius: 25px;
-  width: 100%
+  max-width: 100%
 }
 
 footer p {
   display: inline-block;
-  vertical-align: text;
+  vertical-align: top;
   margin-left: 20%;
 }
 footer a {
   display: inline-block;
-  vertical-align: text;
+  vertical-align: top;
   margin-left: 20%;
+}
+
+a {
+  font-family: sans-serif;
+}
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+a:active {
+  color: blue;
+}
+
+@media screen and (max-width: 850px) {
+  .maintext {
+    font-size: small;
+  }
+}
+
+  @media screen and (max-width: 600px) {
+  nav {
+    display: block;
+  }
 }
