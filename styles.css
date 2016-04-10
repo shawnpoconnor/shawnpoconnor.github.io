@@ -95,5 +95,7 @@ a:active {
   @media screen and (max-width: 600px) {
   nav {
     display: block;
+    width:45%;
+    margin: 10px;
   }
 }
